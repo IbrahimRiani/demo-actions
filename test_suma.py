@@ -1,5 +1,3 @@
-# test_suma.py
-
 import unittest
 from suma import sumar, restar, multiplicar, dividir
 
@@ -10,8 +8,8 @@ class TestOperaciones(unittest.TestCase):
         self.assertEqual(sumar(-1, -1), -2)
 
     def test_restar(self):
-        self.assertEqual(restar(3, 2), 1)
-        self.assertEqual(restar(5, 3), 2)
+        self.assertEqual(restar(7, 2), 1)
+        self.assertEqual(restar(7, 3), 2)
         self.assertEqual(restar(-1, -1), 0)
 
     def test_multiplicar(self):

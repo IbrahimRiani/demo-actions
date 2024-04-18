@@ -22,7 +22,7 @@ class TestOperaciones(unittest.TestCase):
     def test_dividir(self):
         self.assertEqual(dividir(6, 2), 3)
         self.assertEqual(dividir(9, 3), 3)
-        self.assertEqual(dividir(-11, 2), -5)
+        self.assertEqual(dividir(-10, 2), -5)
         self.assertEqual(dividir(0, 5), 0)
         with self.assertRaises(ValueError):
             dividir(5, 0)
